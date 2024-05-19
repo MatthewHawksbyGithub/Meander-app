@@ -1,3 +1,8 @@
+import PreviewCard from "../components/previewcard";
 export default function Page() { 
-    return (<div>Meander</div>);
+return(
+
+<h1>Meander</h1>
+
+);
 }
