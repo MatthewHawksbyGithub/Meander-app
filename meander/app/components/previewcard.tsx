@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Map from './map';
 
 const PreviewCard: React.FC<{ initialText: string; moreText: string }> = ({
     initialText,
@@ -14,7 +15,8 @@ const PreviewCard: React.FC<{ initialText: string; moreText: string }> = ({
             <div onClick={handleClick} className="cursor-pointer">
                 {initialText}
             </div>
-            {showMore && <div>{moreText}</div>}
+            {showMore && <div>{moreText}
+            <Map/></div>}
         </div>
     );
 };
